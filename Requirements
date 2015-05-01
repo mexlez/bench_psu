@@ -1,1 +1,14 @@
 Requirements:
+
+Design goals:
+- 0-24V @ 4A
+- Two isolated channels
+- Dedicated 2A USB socket
+- Fixed 5V, 3.3V outputs
+- Keypad numemrical input for I & V (PCB-mounted cherry MX switches?)
+- Dual encoder wheels (one to set voltage, one to set current)
+- Separate output enable/disable switches for each output, with LED indicator when on
+- CC mode status LED
+- Driven by STM32F4 ARM MCU
+- H/W for a USB serial/LAN interface
+- backlit LCD display with set + actual voltage/current
