@@ -3,8 +3,7 @@ Requirements:
 1) Supply Capabilities:
 - 5V @2.5A fixed supply with banana jack and usb connections
 - 3.3V @2A fixed supply with banana jack connections
-- 24V @1A fixed supply with banana jack connections
-- Two isolated adjustable 0-12V @4A supply with banana jack connections
+- Two isolated adjustable 0-15V @4A supply with banana jack connections
 - Mains earth ground banana jack
 - Power switch for each supply (output enable) with indicator light
 - 120V/240V (uk) mains power supply input
