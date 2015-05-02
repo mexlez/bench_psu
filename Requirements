@@ -1,14 +1,25 @@
 Requirements:
 
-Design goals:
-- 0-24V @ 4A
-- Two isolated channels
-- Dedicated 2A USB socket
-- Fixed 5V, 3.3V outputs
-- Keypad numemrical input for I & V (PCB-mounted cherry MX switches?)
-- Dual encoder wheels (one to set voltage, one to set current)
-- Separate output enable/disable switches for each output, with LED indicator when on
-- CC mode status LED
-- Driven by STM32F4 ARM MCU
-- H/W for a USB serial/LAN interface
-- backlit LCD display with set + actual voltage/current
+1) Supply Capabilities:
+- 5V @2.5A fixed supply with banana jack and usb connections
+- 3.3V @2A fixed supply with banana jack connections
+- 24V @1A fixed supply with banana jack connections
+- Two isolated adjustable 0-12V @4A supply with banana jack connections
+- Mains earth ground banana jack
+- Power switch for each supply (output enable) with indicator light
+
+2) Interface:
+- LCD/LED display
+- Display both adjustable channels simultaneously
+- Keypad input (numerical digits, enter, 2x channel select (adj, fix))
+- Indicator for selected channel
+- One encoder wheel
+- Visual indication for current limit active
+- USB serial interface [W]
+
+3) Software / Functionality
+- Metering for each channel (setpoint vs actual)
+- Computer controlled setpoints and monitoring over USB [W]
+
+4) Component Restrictions
+- Main MCU is STM32F4
