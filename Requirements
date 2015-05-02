@@ -7,6 +7,7 @@ Requirements:
 - Two isolated adjustable 0-12V @4A supply with banana jack connections
 - Mains earth ground banana jack
 - Power switch for each supply (output enable) with indicator light
+- 120V/240V (uk) mains power supply input
 
 2) Interface:
 - LCD/LED display
